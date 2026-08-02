@@ -1,21 +1,45 @@
 aid: verve-therapeutics
-name: Verve Therapeutics *
-description: 'Verve Therapeutics * is a company surfaced as a portfolio company of gv and added to the
-  API Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting
-  the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/verve-therapeutics.png
+name: Verve Therapeutics
+description: 'Verve Therapeutics is a Boston-based clinical-stage biotechnology company
+  developing a pipeline of in vivo gene editing medicines designed to treat cardiovascular
+  disease with a single, one-time treatment. Its programs use base editing and CRISPR
+  technology to durably switch off disease-driving genes, led by VERVE-102 (targeting
+  PCSK9 to lower LDL cholesterol), alongside VERVE-201 (ANGPTL3) and VERVE-301 (LPA).
+  Verve was acquired by Eli Lilly in July 2025 in a deal worth up to $1.3 billion.
+  As a therapeutics/research company it publishes no public developer API; this profile
+  is maintained as a company identity record in the API Evangelist network. Originally
+  surfaced as a portfolio company of GV.'
 url: https://raw.githubusercontent.com/api-evangelist/verve-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - gv
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: portfolio-lead-no-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Life Sciences
+- Biotechnology
+- Gene Editing
+- Genetic Medicine
+- Cardiovascular
+- Pharmaceuticals
+- CRISPR
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/verve-therapeutics-domain-security.yml
 - type: Website
-  url: http://vervetx.com
+  url: https://vervetx.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
